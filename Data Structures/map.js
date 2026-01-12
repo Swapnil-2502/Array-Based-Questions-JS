@@ -18,6 +18,10 @@ console.log(map.has('age'))
 console.log(map.delete('name')); // true
 console.log(map.delete('age'));  // false
 
+//Clear all values from Map
+//Remove All Values → clear()
+set.clear();
+
 console.log(map)
 
 map.set('Car', 'BMW')
